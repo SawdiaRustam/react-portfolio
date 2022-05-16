@@ -1,0 +1,86 @@
+ 
+
+.header{
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  background-color: rgb(93, 182, 4);
+  padding: 40px 0;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+.calculator-frame{
+  margin: 2rem auto;
+  width: 40rem;
+  max-width: 90%;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 2px solid rgb(93, 182, 4);
+  
+}
+.calc-input{
+border: 2px solid rgb(93, 182, 4);
+width: 8rem;
+height: 3rem;
+font-size: 30px;
+
+}
+
+.calc-btn{
+  background-color: rgb(93, 182, 4);
+  padding: 10px 20px;
+  margin: 10px 2px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+  cursor: pointer;
+}
+#Result{
+  color:rgb(93, 182, 4) ;
+  font-family: cursive;
+}
+
+
+/* Contact Section */
+
+.contact{
+  background-color: aquamarine;
+  margin: 10vh  auto;
+  width: 50vh;
+  height: 80vh;
+  padding: 10px;
+}
+.contact h1{
+  color: rgb(53, 52, 52);
+}
+.balance-part{
+  text-align: left;
+  padding: 10px 10px;
+}
+.balance-part h4{
+  font-size: medium;
+  color: rgb(70, 69, 69);
+}
+#balance{
+  color: rgb(34, 34, 34);
+}
+.exp-container{
+  background-color: blanchedalmond;
+  box-sizing: border-box;
+  box-shadow: rgb(203, 216, 240);
+  width: 50%;
+  display: flex;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+.history{
+  text-align: left;
+
+}
+#list li{
+  text-decoration: none;
+  text-align: right;
+}
